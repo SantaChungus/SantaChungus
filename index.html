@@ -3,82 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SantaChungus Crypto Coin</title>
+    <title>SantaChungus Coin</title>
     <style>
+        /* Global Styles */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            color: #333;
+            font-family: 'Comic Sans MS', sans-serif;
+            background: linear-gradient(to bottom, #ff2d55, #ff9a9e);
+            color: #fff;
             text-align: center;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #ff2d55;
-            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
             padding: 1rem;
-        }
-
-        .hero {
-            padding: 2rem;
-            background-color: #fff;
-            margin: 2rem auto;
-            width: 90%;
-            max-width: 600px;
-            border-radius: 15px;
-            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        img {
-            max-width: 200px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
         }
 
         h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
+            margin: 0;
         }
 
         p {
             font-size: 1.2rem;
         }
 
+        .hero {
+            padding: 2rem;
+            margin: 2rem auto;
+            width: 90%;
+            max-width: 700px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero img {
+            max-width: 200px;
+            transition: transform 0.3s ease;
+        }
+
+        .hero img:hover {
+            transform: rotate(10deg) scale(1.1);
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+
         .cta {
-            background-color: #ff2d55;
-            color: white;
+            display: inline-block;
             padding: 0.8rem 1.5rem;
+            background-color: #ff5e7b;
+            color: #fff;
             text-decoration: none;
             border-radius: 50px;
             font-size: 1.2rem;
-            display: inline-block;
             margin-top: 1rem;
+            transition: background-color 0.3s ease;
         }
 
         .cta:hover {
-            background-color: #ff5e7b;
+            background-color: #ff2d55;
+            transform: scale(1.05);
         }
 
         footer {
             margin-top: 2rem;
-            font-size: 0.9rem;
-            color: #777;
+            font-size: 1rem;
+            color: #ffebeb;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #ff5e7b;
+            padding: 0.8rem;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffebeb;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>🎅 SantaChungus Coin</h1>
-        <p>The biggest meme coin of the holidays!</p>
+        <p>The meme coin that sleighs the competition!</p>
     </header>
 
+    <nav>
+        <a href="#about">About</a>
+        <a href="#buy">How to Buy</a>
+        <a href="#community">Community</a>
+    </nav>
+
     <div class="hero">
-        <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" alt="SantaChungus Meme">
-        <h2>Big Meme. Big Laughs. Big Gains.</h2>
-        <p>SantaChungus is here to deliver not just gifts but meme gains straight to your wallet.</p>
+        <img src="https://via.placeholder.com/200x200.png?text=SantaChungus" alt="SantaChungus Meme">
+        <h2>Big Laughs, Bigger Gains</h2>
+        <p>Join the SantaChungus revolution! Where memes meet the blockchain and holiday cheer never ends.</p>
         <a href="#" class="cta">Get SantaChungus Now</a>
     </div>
 
     <footer>
-        <p>&copy; 2024 SantaChungus Coin. All Rights Reserved.</p>
+        <p>&copy; 2024 SantaChungus Coin. All Rights Reserved. 🎅💰</p>
     </footer>
 </body>
 </html>
