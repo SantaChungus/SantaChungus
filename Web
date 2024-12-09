@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SantaChungus Crypto Coin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff2d55;
+            color: white;
+            padding: 1rem;
+        }
+
+        .hero {
+            padding: 2rem;
+            background-color: #fff;
+            margin: 2rem auto;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 200px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        .cta {
+            background-color: #ff2d55;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .cta:hover {
+            background-color: #ff5e7b;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎅 SantaChungus Coin</h1>
+        <p>The biggest meme coin of the holidays!</p>
+    </header>
+
+    <div class="hero">
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" alt="SantaChungus Meme">
+        <h2>Big Meme. Big Laughs. Big Gains.</h2>
+        <p>SantaChungus is here to deliver not just gifts but meme gains straight to your wallet.</p>
+        <a href="#" class="cta">Get SantaChungus Now</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SantaChungus Coin. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
